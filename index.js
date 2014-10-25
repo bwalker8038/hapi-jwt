@@ -2,6 +2,7 @@ var Boom = require('boom');
 var Hoek = require('hoek');
 var jwt  = require('jsonwebtoken');
 
+
 function register (plugin, options, next) {
   plugin.auth.scheme('bearer-access-token', function (server, options) {
 
