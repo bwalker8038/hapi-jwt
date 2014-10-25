@@ -1,11 +1,16 @@
-# Hapi JWT Bearer Token
+# Hapi JWT
 
-[![Build Status](https://travis-ci.org/JerrySievert/hapi-auth-jwt.svg?branch=master)](https://travis-ci.org/JerrySievert/hapi-auth-jwt)
+
+[![Build Status](https://travis-ci.org/bwalker8038/hapi-jwt.svg?branch=master)](https://travis-ci.org/bwalker8038/hapi-jwt)
+
+
+This is library is a fork of [Jerry Sievert's hapi-auth-jwt library](https://github.com/JerrySievert/hapi-auth-jwt)
+
 
 [Hapi](https://github.com/spumko/hapi) Bearer and JWT Authentication, with request
 
 ```
-$ npm install --save hapi-auth-jwt-request
+$ npm install --save hapi-jwt
 ```
 
 

@@ -41,8 +41,14 @@ function register (plugin, options, next) {
           if ( err ) {
             if ( err.name === 'TokenExpiredError' ) {
 
-              // Return 401 if the token is expired
-              return reply(Boom.unauthorized('Bearer Token is expired', 'Bearer'));
+              if ( options.handleExpired ) {
+                options.handledExpired.call(this);
+
+              } else {
+
+                // Return 401 if the token is expired
+                return reply(Boom.unauthorized('Bearer Token is expired', 'Bearer'));
+              }
             } else {
 
               // Return 400 otherwise

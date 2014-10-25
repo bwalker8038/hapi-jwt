@@ -1,6 +1,6 @@
 {
-  "name": "hapi-auth-jwt-request",
-  "version": "1.0.1",
+  "name": "hapi-jwt",
+  "version": "1.0.0",
   "description": "Auth Module for Hapi using JSON Web Tokens",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,10 @@
     "jwt",
     "bearer"
   ],
-  "author": "Jerry Sievert <code@legitimatesounding.com> (http://legitimatesounding.com/blog/)",
+  "authors": [
+      "brad <brad@bradww.com> (http://bradww.com)",
+      "Jerry Sievert <code@legitimatesounding.com> (http://legitimatesounding.com/blog/)"
+  ],
   "license": "ISC",
   "dependencies": {
     "boom": "^2.4.2",
@@ -28,10 +31,10 @@
     "gulp-lab": "0.0.10"
   },
   "bugs": {
-    "url": "https://github.com/JerrySievert/hapi-auth-jwt/issues"
+    "url": "https://github.com/bwalker8038/hapi-jwt/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JerrySievert/hapi-auth-jwt.git"
+    "url": "https://github.com/bwalker8038/hapi-jwt.git"
   }
 }
