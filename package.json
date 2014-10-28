@@ -1,6 +1,6 @@
 {
   "name": "hapi-jwt",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Auth Module for Hapi using JSON Web Tokens",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "jsonwebtoken": "^1.1.2"
   },
   "devDependencies": {
-    "hapi": "^6.2.2",
+    "hapi": "^7.1.x",
     "lab": "^3.2.3",
     "gulp-escomplex": "^0.1.2",
     "gulp-escomplex-reporter-json": "^0.1.4",
